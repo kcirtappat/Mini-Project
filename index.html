@@ -9,7 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap');
         *{
             font-family: 'Raleway', sans-serif;
-            font-weight: bold
+            font-weight: bold;
         }
         .fa-brands {
         padding: 20px;
@@ -20,9 +20,9 @@
         .fa:hover {
         opacity: 0.7;
         }
-        .fa-facebook { color: white; }
-        .fa-instagram { color: white; }
-        .fa-twitter { color: white; }
+        .fa-facebook { color: black; }
+        .fa-instagram { color: black; }
+        .fa-twitter { color: black; }
         .carousel-item {
             height: 32rem;
             background: #777;
@@ -31,8 +31,8 @@
         }
         .carousel-container {
             position: absolute;
-            bottom: 0;
-            left: 25%;
+            bottom: 50px;
+            left: 200px;
             right: 0;
             padding-bottom: 50px;
         }
@@ -57,12 +57,12 @@
     <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="logo.png" width="50" alt=""></a>
+          <a class="navbar-brand" href="#"><img class="ms-2" src="logo.png" width="50" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
               </li>
@@ -75,9 +75,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">SHOES</a>
               </li>
-                <a class="" href="#"><img class="ms-1 me-1" width="25" src="search.png" alt="searchicon"></a>
-                <a class="" href="#"><img class="me-1" width="25" src="shopping-bag.png" alt="shoppingicon"></a>
-                <a class="" href="#"><img class="mt-1 me-1" width="25" src="user.png" alt="shoppingicon"></a>
+              <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="search.png" alt="searchicon"></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="shopping-bag.png" alt="shoppingicon"></a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><img class="mt-1 me-1" width="25" src="user.png" alt="shoppingicon"></a></li>
+                
             </ul>
           </div>
         </div>
@@ -87,17 +88,17 @@
 
     <div id="carouselExampleDark" class="carousel slide carousel-white" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="1000">
+          <div class="carousel-item active" data-bs-interval="3000">
             <div class="overlay-image"
             style="background-image:url(images/slide-1.jpg);">
             </div>
             <div class="carousel-container d-none d-md-block">
-            <h1>Example Headline</h1>
+            <h1 class="">Example Headline</h1>
             <p>Some representative placeholder content for the first slide.</p>
               <button type="button" class="btn btn-light">BUY NOW</button>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="2000">
+          <div class="carousel-item" data-bs-interval="3000">
             <div class="overlay-image"
             style="background-image:url(images/slide-2.jpg);">
             </div>
@@ -107,7 +108,7 @@
                   <button type="button" class="btn btn-light">BUY NOW</button>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item" data-bs-interval="3000">
             <div class="overlay-image"
             style="background-image:url(images/slide-3.jpg);">
             </div>
@@ -180,15 +181,15 @@
 
 
 <!-- Footer -->
-<!--
-<footer class="sticky-footer text-center text-lg-start text-white my-0 bg-dark">
+
+<footer class="sticky-footer text-center text-lg-start text-white my-0 footer-light bg-light">
     <div class="container p-4 pb-0">
         <div class="row">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h6 class="text-uppercase mb-4 font-weight-bold text-white">
+            <h6 class="text-uppercase mb-4 font-weight-bold text-dark">
               ABOUT
             </h6>
-            <p class="text-white">
+            <p class="text-dark">
               Here you can use rows and columns to organize your footer
               content. Lorem ipsum dolor sit amet, consectetur adipisicing
               elit.</p>
@@ -196,23 +197,23 @@
           <hr class="w-100 clearfix d-md-none">
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">QUICK LINKS</h6>
-            <p><a class="text-white" href="#">About Us</a></p>
-            <p><a class="text-white" href="#">Contact Us</a></p>
-            <p><a class="text-white" href="#">Privacy Policy</a></p>
-            <p><a class="text-white" href="#">Contribute</a></p>
+            <p><a class="text-dark" href="#">About Us</a></p>
+            <p><a class="text-dark" href="#">Contact Us</a></p>
+            <p><a class="text-dark" href="#">Privacy Policy</a></p>
+            <p><a class="text-dark" href="#">Contribute</a></p>
           </div>
           <hr class="w-100 clearfix d-md-none">
         </div>
       </section>
       
-      <hr class="my-3">
+      <hr class="my-3 text-dark">
 
         <section class="p-3 pt-0">
             <div class="row d-flex align-items-center">
             <div class="col-md-7 col-lg-8 text-md-start">
                 <div class="p-3">
-                <span class="">© 2022</span>
-                    <a class="text-white" href="#">SupremeClothing.com</a>
+                <span class="text-dark">© 2022</span>
+                    <a class="text-dark" href="#">SupremeClothing.com</a>
                 </div>
             </div>
 
@@ -224,7 +225,7 @@
         </section>
     </div>
 </footer>
--->
+
   
   <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
