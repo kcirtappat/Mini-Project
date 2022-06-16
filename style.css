@@ -3,6 +3,9 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
   }
+
+
+  /* HOMEPAGE CSS */
   .fa-brands {
   padding: 20px;
   font-size: 30px;
@@ -37,6 +40,7 @@
   }
   .card-body{
     text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
   }
   .card-text {
     letter-spacing: 1px;
@@ -72,3 +76,26 @@
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin-bottom: 4rem;
   }
+
+
+/* SHOES PAGE CSS */
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
