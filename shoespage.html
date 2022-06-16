@@ -15,45 +15,44 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="ms-2" src="img/logo.png" width="50" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index2.html">CLOTHING</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ACCESORIES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="shoespage.html">SHOES</a>
-            </li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="img/search.png" alt="searchicon"></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="img/shopping-bag.png" alt="shoppingicon"></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>
-          </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="ms-2" src="img/logo.png" width="50" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index2.html">CLOTHING</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ACCESORIES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="shoespage.html">SHOES</a>
+                </li>
+                  <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="img/search.png" alt="searchicon"></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="img/shopping-bag.png" alt="shoppingicon"></a></li>
+                  <li class="nav-item"><a class="nav-link" href="#"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>
+              </ul>
+            </div>
         </div>
-    </div>
-  </nav>
+      </nav>
 
 
 
 
 
-
-  <!-- Shoes Cards -->
-  <div class="container">
-        <div class="row mt-5">
+    <!-- Shoes Cards -->
+    <div class="container mt-5">
+        <div class="row">
             <div class="col-md-3">
-                <fieldset class="">
-                    <label for="standard-select">Categories</label>
+                <fieldset disabled>
+                    <label for="shoebrand-select">Shoes Categories</label>
                     <div class="select">
                         <select id="shoebrand-select">
                           <option value="Brand Type" selected="selected">Brand Type</option>
@@ -74,8 +73,24 @@
                 <div class="card-image rounded-0">
                     <img class="card-img rounded-0" src="imgjocson/shoes-1.jpg">
                 </div>
+
                 <div class="card-body">
                     <h4 class="h4">Shoes 2</h4>
+                    <fieldset>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-1">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -89,11 +104,26 @@
         
         <div class="col-md-4">
             <div class="card mb-4">
-                <div class="card rounded-0">
+                <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-2.jpg">
                 </div>
                 <div class="card-body">
                     <h4 class="h4">Shoes 2</h4>
+                    <fieldset disabled>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-2">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -107,11 +137,26 @@
 
         <div class="col-md-4">
             <div class="card mb-4">
-                <div class="card rounded-0">
+                <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-3.jpg">
                 </div>
                 <div class="card-body">
                     <h4 class="h4">Shoes 3</h4>
+                    <fieldset disabled>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-2">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -125,11 +170,26 @@
 
         <div class="col-md-4">
             <div class="card mb-4">
-                <div class="card rounded-0">
+                <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-4.jpg">
                 </div>
                 <div class="card-body">
                     <h4 class="h4">Shoes 4</h4>
+                    <fieldset disabled>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-2">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -143,11 +203,26 @@
 
         <div class="col-md-4 col-sm-3">
             <div class="card mb-4">
-                <div class="card rounded-0">
+                <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-5.jpg">
                 </div>
                 <div class="card-body">
                     <h4 class="h4">Shoes 5</h4>
+                    <fieldset disabled>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-2">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -161,11 +236,26 @@
 
         <div class="col-md-4">
             <div class="card mb-4">
-                <div class="card rounded-0">
+                <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-6.jpg">
                 </div>
                 <div class="card-body">
                     <h4 class="h4">Shoes 6</h4>
+                    <fieldset disabled>
+                        <label for="standard-select">Size: EU</label>
+                        <div class="select">
+                            <select id="shoe-sizes">
+                              <option value="40" selected="selected">40</option>
+                              <option value="shoes-1">41</option>
+                              <option value="shoes-2">42</option>
+                              <option value="shoes-3">43</option>
+                              <option value="shoes-3">44</option>
+                              <option value="shoes-3">45</option>
+                              <option value="shoes-3">46</option>
+                            </select>
+                            <span class="focus"></span>
+                          </div>
+                    </fieldset>
                         <ul class="list-unstyled mt-2">
                         <li>
                             <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
@@ -177,8 +267,7 @@
             </div>
         </div>
     </div>
-  
-</div>
+    </div>
 
 
 
