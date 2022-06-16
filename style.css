@@ -80,15 +80,11 @@
 .card-body{
     text-align: center;
   }
-.card-image{
-    overflow: hidden;
+#imgcard-1 .img-one:hover {
+    display: block;
+    border: 2px solid black;
 }
-.card-image img{
-    transition: all 1.0s ease;
-}
-.card-image:hover img{
-    transform: scale(1.2);
-}
+
 
 
 
