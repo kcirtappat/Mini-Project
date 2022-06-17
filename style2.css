@@ -1,11 +1,10 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300&display=swap');
-<<<<<<< HEAD
 /* ========================= Body =========================  */
                 *{
 
-                  font-family: 'Raleway', sans-serif;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
                   font-weight: bold;
                 }
 
@@ -31,10 +30,14 @@
                     position: relative;
                 }
 
+<<<<<<< HEAD
 
 
                 
 >>>>>>> fd681a6a46ed12742d1a1decee6101d77698a5d6
+=======
+                
+>>>>>>> d0187ea094071f545cf393fc6a4a9bf2f049b518
 
 /* ========================= Body =========================  */
 
