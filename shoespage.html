@@ -94,11 +94,12 @@
                     <label for="shoebrand-select">Shoes Categories</label>
                     <div class="select">
                         <select id="shoebrand-select">
-                          <option value="Brand Type" selected="selected">Brand Type</option>
-                          <option value="shoes-1">Abibas</option>
-                          <option value="shoes-2">Mike</option>
-                          <option value="shoes-3">iPhone Shoes</option>
-                          <option value="new-arrival">New Arrival Shoes</option>
+                          <option value="" selected="selected">Brand Type</option>
+                          <option value="">Abibas</option>
+                          <option value="">Mike</option>
+                          <option value="">Converse</option>
+                          <option value="">iPhone Shoes</option>
+                          <option value="">New Arrival Shoes</option>
                         </select>
                         <span class="focus"></span>
                       </div>
@@ -108,25 +109,25 @@
 
     <div class="row mt-2">
         <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-image1 rounded-0">
-                    <img id="imgcard1" class="card-img rounded-0" src="imgjocson/shoes-1.jpg">
+            <div class="card bg-secondary">
+                <div class="card-image1 border rounded-2">
+                    <img id="imgcard1" class="card-img rounded-0" src="imgjocson/sc-premiere1.jpg">
                 </div>
                 <div class="card-body">
-                    <div class="row border-5" id="imgcard-1">
+                    <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/shoes-3.jpg" onclick="pictureChange()" width="90" alt="">
+                                <img src="imgjocson/sc-premiere1.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/shoes-4.jpg" onclick="pictureChange2()" width="90" alt="">
+                                <img src="imgjocson/sc-premiere2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/shoes-5.jpg" onclick="pictureChange3()" width="90" alt="">
+                                <img src="imgjocson/sc-premiere3.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -136,12 +137,12 @@
                         <div class="select">
                             <select id="shoe-sizes">
                                 <option value="40" selected="selected">40</option>
-                                <option value="shoes-1">41</option>
-                                <option value="shoes-2">42</option>
-                                <option value="shoes-3">43</option>
-                                <option value="shoes-3">44</option>
-                                <option value="shoes-3">45</option>
-                                <option value="shoes-3">46</option>
+                                <option value="">41</option>
+                                <option value="">42</option>
+                                <option value="">43</option>
+                                <option value="">44</option>
+                                <option value="">45</option>
+                                <option value="">46</option>
                             </select>
                             <span class="focus"></span>
                         </div>
@@ -158,56 +159,90 @@
         </div>
         
         <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-image rounded-0">
-                    <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-2.jpg">
+            <div class="card bg-light">
+                <div class="card-image border rounded-2">
+                    <img class="card-img img-fluid" src="imgjocson/niteball-1.jpg">
                 </div>
                 <div class="card-body">
-                    <h4 class="h4">Shoes 2</h4>
-                    <fieldset disabled>
-                        <label for="standard-select">Size: EU</label>
-                        <div class="select">
-                            <select id="shoe-sizes">
-                              <option value="40" selected="selected">40</option>
-                              <option value="shoes-1">41</option>
-                              <option value="shoes-2">42</option>
-                              <option value="shoes-3">43</option>
-                              <option value="shoes-3">44</option>
-                              <option value="shoes-3">45</option>
-                              <option value="shoes-3">46</option>
-                            </select>
-                            <span class="focus"></span>
-                          </div>
-                    </fieldset>
-                        <ul class="list-unstyled mt-2">
-                        <li>
-                            <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                            <button class="btn btn-dark" type="submit">BUY NOW</button>
-                        </li>
-                        </ul>
-                        <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
+                    <div class="row" id="imgcard-1">
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/niteball-2.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/niteball-3.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/niteball-4.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                    </div>
+                        <h4 class="h4 mt-2">Shoes 2</h4>
+                        <fieldset disabled>
+                            <label for="standard-select">Size: EU</label>
+                            <div class="select">
+                                <select id="shoe-sizes">
+                                  <option value="40" selected="selected">40</option>
+                                  <option value="">41</option>
+                                  <option value="">42</option>
+                                  <option value="">43</option>
+                                  <option value="">44</option>
+                                  <option value="">45</option>
+                                  <option value="">46</option>
+                                </select>
+                                <span class="focus"></span>
+                              </div>
+                        </fieldset>
+                            <ul class="list-unstyled mt-2">
+                            <li>
+                                <button class="btn btn-dark border-0"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                                <button class="btn btn-dark" type="submit">BUY NOW</button>
+                            </li>
+                            </ul>
+                            <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
                 </div>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-image rounded-0">
-                    <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-3.jpg">
+            <div class="card bg-secondary">
+                <div class="card-image border rounded-2">
+                    <img class="card-img img-fluid" src="imgjocson/continental80-1.jpg">
                 </div>
                 <div class="card-body">
-                    <h4 class="h4">Shoes 3</h4>
-                    <fieldset disabled>
+                    <div class="row" id="imgcard-1">
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-2.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-3.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-4.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="h4">CONTINENTAL 80</h4>
+                    <fieldset>
                         <label for="standard-select">Size: EU</label>
                         <div class="select">
                             <select id="shoe-sizes">
                               <option value="40" selected="selected">40</option>
-                              <option value="shoes-1">41</option>
-                              <option value="shoes-2">42</option>
-                              <option value="shoes-3">43</option>
-                              <option value="shoes-3">44</option>
-                              <option value="shoes-3">45</option>
-                              <option value="shoes-3">46</option>
+                              <option value="">41</option>
+                              <option value="">42</option>
+                              <option value="">43</option>
+                              <option value="">44</option>
+                              <option value="">45</option>
+                              <option value="">46</option>
                             </select>
                             <span class="focus"></span>
                           </div>
@@ -223,24 +258,42 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-4.jpg">
                 </div>
                 <div class="card-body">
+                    <div class="row" id="imgcard-1">
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-2.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-3.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-one">
+                                <img src="imgjocson/continental80-4.jpg" width="90" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- continues here -->
                     <h4 class="h4">Shoes 4</h4>
                     <fieldset disabled>
                         <label for="standard-select">Size: EU</label>
                         <div class="select">
                             <select id="shoe-sizes">
                               <option value="40" selected="selected">40</option>
-                              <option value="shoes-1">41</option>
-                              <option value="shoes-2">42</option>
-                              <option value="shoes-3">43</option>
-                              <option value="shoes-3">44</option>
-                              <option value="shoes-3">45</option>
-                              <option value="shoes-3">46</option>
+                              <option value="">41</option>
+                              <option value="">42</option>
+                              <option value="">43</option>
+                              <option value="">44</option>
+                              <option value="">45</option>
+                              <option value="">46</option>
                             </select>
                             <span class="focus"></span>
                           </div>
@@ -256,7 +309,7 @@
             </div>
         </div>
 
-        <div class="col-md-4 col-sm-3">
+        <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-5.jpg">
@@ -268,12 +321,12 @@
                         <div class="select">
                             <select id="shoe-sizes">
                               <option value="40" selected="selected">40</option>
-                              <option value="shoes-1">41</option>
-                              <option value="shoes-2">42</option>
-                              <option value="shoes-3">43</option>
-                              <option value="shoes-3">44</option>
-                              <option value="shoes-3">45</option>
-                              <option value="shoes-3">46</option>
+                              <option value="">41</option>
+                              <option value="">42</option>
+                              <option value="">43</option>
+                              <option value="">44</option>
+                              <option value="">45</option>
+                              <option value="">46</option>
                             </select>
                             <span class="focus"></span>
                           </div>
@@ -289,7 +342,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image rounded-0">
                     <img class="card-img rounded-0 img-fluid" src="imgjocson/shoes-6.jpg">
@@ -301,12 +354,12 @@
                         <div class="select">
                             <select id="shoe-sizes">
                               <option value="40" selected="selected">40</option>
-                              <option value="shoes-1">41</option>
-                              <option value="shoes-2">42</option>
-                              <option value="shoes-3">43</option>
-                              <option value="shoes-3">44</option>
-                              <option value="shoes-3">45</option>
-                              <option value="shoes-3">46</option>
+                              <option value="">41</option>
+                              <option value="">42</option>
+                              <option value="">43</option>
+                              <option value="">44</option>
+                              <option value="">45</option>
+                              <option value="">46</option>
                             </select>
                             <span class="focus"></span>
                           </div>
@@ -340,10 +393,10 @@
           <hr class="w-100 clearfix d-md-none">
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
-            <p><a class="text-dark" href="#">About Us</a></p>
-            <p><a class="text-dark" href="#">Contact Us</a></p>
-            <p><a class="text-dark" href="#">Privacy Policy</a></p>
-            <p><a class="text-dark" href="#">Contribute</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">About Us</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Contact Us</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Privacy Policy</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Contribute</a></p>
           </div>
           <hr class="w-100 clearfix d-md-none">
         </div>
@@ -354,7 +407,7 @@
             <div class="col-md-7 col-lg-8 text-md-start">
                 <div class="p-3">
                 <span class="text-dark">© 2022</span>
-                    <a class="text-dark" href="#">SupremeClothing.com</a>
+                    <a class="text-dark text-decoration-none" href="#">SupremeClothing.com</a>
                 </div>
             </div>
             <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">

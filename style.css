@@ -10,7 +10,6 @@
     color: #000;
     text-decoration: none;
   }
-  
   a:hover {
     color: #000;
   }
@@ -104,6 +103,11 @@
 #imgcard-1 .img-one:hover {
     display: block;
     border: 2px solid black;
+}
+.card-image:hover {
+  background-image: url("imgjocson/member-1.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
 
