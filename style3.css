@@ -1,10 +1,7 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300&display=swap');
-
 /* ========================= Body =========================  */
                 *{
 
-                    font-family: 'Raleway', sans-serif;
+                    font-family: Georgia, 'Times New Roman', Times, serif;
                     font-weight: bold;
                 }
 
@@ -93,3 +90,10 @@
                 a:hover::before {
                     transform: scaleX(1);
                 }
+
+/* ========================= Button-Hover ========================= */
+
+                .btn:hover {
+                    background-color: #C0B3A0;
+                    color: rgb(248, 238, 238);
+                  }

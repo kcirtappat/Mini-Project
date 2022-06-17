@@ -2,7 +2,6 @@
                 * {
                   font-family: Georgia, 'Times New Roman', Times, serif;
                   font-weight: bolder;
-                  letter-spacing: 1px;
                 }
 
                 .fa-brands {
@@ -16,7 +15,6 @@
                 opacity: 0.7;
                 }
 
-
                 .fa-facebook { color: black; }
                 .fa-instagram { color: black; }
                 .fa-twitter { color: black; }
@@ -27,14 +25,6 @@
                     position: relative;
                 }
 
-<<<<<<< HEAD
-
-
-                
->>>>>>> fd681a6a46ed12742d1a1decee6101d77698a5d6
-=======
-                
->>>>>>> d0187ea094071f545cf393fc6a4a9bf2f049b518
 
 /* ========================= Body =========================  */
 
@@ -177,7 +167,7 @@
 
 
                   .btn:hover {
-                    background-color: rgb(254, 9, 9);
+                    background-color: #C0B3A0;
                     color: rgb(248, 238, 238);
                   }
 
