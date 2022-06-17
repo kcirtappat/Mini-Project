@@ -10,6 +10,17 @@
                     }
 
 
+                    .fa-facebook { color: black; }
+                    .fa-instagram { color: black; }
+                    .fa-twitter { color: black; }
+                    .carousel-item {
+                        height: 32rem;
+                        background: #777;
+                        color: white;
+                        position: relative;
+                    }   
+
+
                     .fa-brands {
                         padding: 20px;
                         font-size: 30px;
@@ -23,10 +34,14 @@
                      }
 
 
-                     
+
                     .card {
                         border: 0px;
                         
+                    }
+
+                    #card6 {
+                        font-size: 80%;
                     }
 
                     #card-hover {
@@ -92,6 +107,7 @@
                     }
                     
 
+
                     #middle {
                         transition: .5s ease;
                         opacity: 0;
@@ -120,3 +136,4 @@
                         font-size: 16px;
                         padding: 16px 32px;
                     }
+

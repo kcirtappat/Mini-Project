@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300&display=swap');
+
+/* ========================= Body =========================  */
+
+                    *{
+
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: bold;
+                    }
+
+
+                    .fa-facebook { color: black; }
+                    .fa-instagram { color: black; }
+                    .fa-twitter { color: black; }
+                    .carousel-item {
+                        height: 32rem;
+                        background: #777;
+                        color: white;
+                        position: relative;
+                    }   
+
+
+                    .fa-brands {
+                        padding: 20px;
+                        font-size: 30px;
+                        text-align: center;
+                        text-decoration: none;
+                        }
+        
+                        
+                        .fa:hover {
+                        opacity: 0.7;
+                     }
+
+
+
+                     
