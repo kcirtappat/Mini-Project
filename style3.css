@@ -1,8 +1,15 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap');
 
 /* ========================= Body =========================  */
+                *{
+
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: bold;
+                }
+
                 .card {
+
                     border: 0px;
                     
                 }
