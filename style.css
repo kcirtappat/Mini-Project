@@ -95,7 +95,6 @@
   }
 
 
-
 /* SHOES PAGE CSS */
 .card-body{
     text-align: center;
@@ -103,11 +102,7 @@
 #imgcard-1 .img-one:hover {
     display: block;
     border: 2px solid black;
-}
-.card-image:hover {
-  background-image: url("imgjocson/member-1.jpg");
-  background-position: center;
-  background-size: cover;
+    display: block;
 }
 
 
