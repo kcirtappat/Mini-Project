@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap');
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  /* HOMEPAGE CSS */
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .fa-brands {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  }
+  .fa:hover {
+  opacity: 0.7;
+  }
+   /* Carousel */
+
+   .carousel-item {
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+  }
+  .carousel-container {
+    position:absolute;
+    bottom: 50px;
+    left: 200px;
+    right: 0;
+    padding-bottom: 20px;
+  }
+  .overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+  }
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  .team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+  }
+  .team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  }
+  .team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  }
+  .page-section {
+  padding: 6rem 0;
+  }
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  }
+  .page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+  }
+
+
+
+/* SHOES PAGE CSS */
+.card-body{
+    text-align: center;
+  }
+#imgcard-1 .img-one:hover {
+    display: block;
+    border: 2px solid black;
+}
+
+a {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover::before {
+    transform: scaleX(1);
+  }
+
+  /* Wrapper */
+
+.wrapper{
+    width: auto;
+    margin: 0 auto;
+}
+
+figure{
+    width: 32%;
+    float: left;
+    margin:0;
+}
+figcaption{
+    width: 250;
+    justify-content: center;
+
+}
+
+figcaption h2{
+    text-transform: uppercase;
+    margin: 15px;
+}
+figcaption p{
+    width: 90%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+.hover-animation{
+    position:relative;
+    height: 350px;
+    width: 350px;
+    margin: 10% auto;
+color:#fff;
+box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+
+.hover-animation img{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    left:0; 
+    -webkit-transition: opacity 1s ease-in-out time;
+    -moz-transition: opacity 1s ease-in-out time;
+    -o-transition: opacity 1s ease-in-out time;
+    transition: opacity 1s ease-in-out time;
+}
+
+.hover-animation img.img-front:hover{
+    opacity:0;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
