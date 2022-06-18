@@ -35,13 +35,68 @@
             <li class="nav-item">
               <a class="nav-link" href="shoespage.html">SHOES</a>
             </li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="img/search.png" alt="searchicon"></a></li>
+            <li>
+              <form action="">
+              <div class="input-group rounded">
+                <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                <span class="input-group-text border-0" id="search-addon">
+                  <button class="border-0"><i class="fas fa-search"></i></button>
+                </span>
+              </div>
+            </form>
+            </li>
               <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="img/shopping-bag.png" alt="shoppingicon"></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>
+              <li class="nav-item"><a class="nav-link" href="login.html"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>
           </ul>
         </div>
     </div>
   </nav>
+
+<!-- Checkout Modal Form 
+<div class="row">
+  <div class="col-md-4 order-md-2 mb-4">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-muted">Your carteu-desu</span>
+      <span class="badge badge-primary badge-pill" style="padding:4.5px">3</span>
+    </h4>
+      <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between 1h-condensed">
+          <div>
+            <h6 class="my-0">Product Name</h6>
+            <small class="text-muted">Brief description</small>
+          </div>
+          <span class="text-muted">$12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between 1h-condensed">
+          <div>
+            <h6 class="my-0">Product Name</h6>
+            <small class="text-muted">Brief description</small>
+          </div>
+          <span class="text-muted">$12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between 1h-condensed">
+          <div>
+            <h6 class="my-0">Product Name</h6>
+            <small class="text-muted">Brief description</small>
+          </div>
+          <span class="text-muted">$12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+          <div class="text-success">
+            <h6 class="my-0">Promo Code</h6>
+            <small class="text-success">EXAMPLE CODE</small>
+          </div>
+          <span class="text-success">-$12</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Total (USD)</span>
+          <strong>$20</strong>
+          </div>
+        </li>
+      </ul>
+  </div>
+</div>
+-->
 
 <!-- Carousel -->
 <div id="carouselExampleDark" class="carousel slide carousel-white" data-bs-ride="carousel">
@@ -94,7 +149,7 @@
 <section class="container py-5">
   <div class="row text-center pt-3">
       <div class="col-lg-6 m-auto">
-          <h1 class="h1">Categories of Supreme Clothing</h1>
+          <h1 class="h1">Supreme Clothing Categories</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua.
@@ -103,19 +158,19 @@
   </div>
   <div class="row">
       <div class="col-12 col-md-4 p-5 mt-3">
-          <a href="#"><img src="imgjocson/categoryimg-1.jpeg" class="rounded-circle img-fluid"></a>
+            <img src="imgjocson/categoryimg-1.jpg" class="rounded-circle img-fluid">
           <h5 class="text-center mt-3 mb-3">Clothes</h5>
-          <p class="text-center"><a class="btn btn-dark" href="#">Go Shop</a></p>
+          <p class="text-center"><a class="btn btn-dark" href="index2.html">Go Shop</a></p>
       </div>
       <div class="col-12 col-md-4 p-5 mt-3">
-          <a href="#"><img src="imgjocson/categoryimg-2.jpg" class="rounded-circle img-fluid"></a>
+            <img src="imgjocson/categoryimg-2.jpg" class="rounded-circle img-fluid">
           <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
           <p class="text-center"><a class="btn btn-dark" href="shoespage.html">Go Shop</a></p>
       </div>
       <div class="col-12 col-md-4 p-5 mt-3">
-          <a href="#"><img src="imgjocson/categoryimg-3.jpg" class="rounded-circle img-fluid"></a>
+            <img src="imgjocson/categoryimg-3.jpg" class="rounded-circle img-fluid">
           <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-          <p class="text-center"><a class="btn btn-dark">Go Shop</a></p>
+          <p class="text-center"><a class="btn btn-dark" href="#">Go Shop</a></p>
       </div>
   </div>
 </section>
@@ -175,17 +230,16 @@
               About
             </p>
             <p class="text-dark">
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.</p>
+              Supreme is one of the largest international fashion companies.
+               It belongs to JJP Group of Companies, one of the world’s largest distribution groups.</p>
           </div>
           <hr class="w-100 clearfix d-md-none">
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
             <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
-            <p><a class="text-dark" href="#">About Us</a></p>
-            <p><a class="text-dark" href="#">Contact Us</a></p>
-            <p><a class="text-dark" href="#">Privacy Policy</a></p>
-            <p><a class="text-dark" href="#">Contribute</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">About Us</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Contact Us</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Privacy Policy</a></p>
+            <p><a class="text-dark text-decoration-none" href="#">Contribute</a></p>
           </div>
           <hr class="w-100 clearfix d-md-none">
         </div>
@@ -196,7 +250,7 @@
             <div class="col-md-7 col-lg-8 text-md-start">
                 <div class="p-3">
                 <span class="text-dark">© 2022</span>
-                    <a class="text-dark" href="#">SupremeClothing.com</a>
+                    <a class="text-dark text-decoration-none" href="#">SupremeClothing.com</a>
                 </div>
             </div>
             <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">

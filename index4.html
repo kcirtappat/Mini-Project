@@ -21,7 +21,7 @@
     <!-----------------Google Fonts------------------------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
 
     <!-----------------Favicon------------------------>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
@@ -34,55 +34,63 @@
 
 
     <!------------------ Navbar --------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                         <a class="navbar-brand" href="index.html"><img class="ms-2" src="/img/logo.png" width="50" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="index2.html">CLOTHING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ACCESORIES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shoespage.html">SHOES</a>
+                            </li>
+                            <li>
+                              <form action="">
+                                <div class="input-group rounded">
+                                  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                                  <span class="input-group-text border-0" id="search-addon">
+                                    <button class="border-0"><i class="fas fa-search"></i></button>
+                                  </span>
+                                </div>
+                              </form>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="img/shopping-bag.png" alt="shoppingicon"></a></li>
+                            <li class="nav-item"><a class="nav-link" href="login.html"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>        
+                        </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+ <!------------------ Header --------------------------->
+
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="ms-2" src="/img/logo.png" width="50" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-            <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CLOTHING</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ACCESORIES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SHOES</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="/img/search.png" alt="searchicon"></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="/img/shopping-bag.png" alt="shoppingicon"></a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><img class="mt-1 me-1" width="25" src="/img/user.png" alt="shoppingicon"></a></li>
-                
-            </ul>
-          </div>
+              <div class="card text-center">
+                    <div class="card-body text-center">
+                        <h1 class="card-title text-dark"  id="card-hover">TONAL SUITING</h1>
+                        <h1 class="card-title text-dark display-1">STUDIO COLLECTION</h1>
+                        </div>
+                  </div>
         </div>
- </nav>
-
-
-
-    <div class="container-fluid">
-        <div class="card text-center">
-          <div class="card-body text-center">
-            <h1 class="card-title text-dark"  id="card-hover">MIRAGE</h1>
-            <h1 class="card-title text-dark display-1">STUDIO COLLECTION</h1>
-            </div>
-            </div>
-      </div>
-      
+        
   
-      
-      <div class="container-fluid m-1 p-2">
+ <!------------------ Row1 --------------------------->      
+      <div class="container-fluid mx-4 px-0">
         <div class="row">
-          
-    
             <div class="col-sm-3">
             <div class="card card-block" id="container">
-              <img class="card-img-top" alt="" src="/img/shirt50.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
+              <img class="card-img-top" alt="shirt50" src="img/shirt50.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
               <div class="card-block">
                 <div class="card-body text-sm-center">
                     <a href="#" class="link-dark text-sm-center">BEADED EMBROIDERED SHIRT</a>
@@ -90,6 +98,7 @@
                   </div>
                   <div class="card-body align-content-center text-center" id="middle">
                   <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-md text-uppercase text-light">BUY NOW</a>
                   </div>
               </div> 
             </div>
@@ -97,7 +106,7 @@
             
             <div class="col-sm-3">
             <div class="card card-block" id="container">
-              <img class="card-img-top" alt="" src="/img/shirt51.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
+              <img class="card-img-top" alt="shirt51" src="img/shirt51.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
               <div class="card-block">
                 <div class="card-body text-sm-center">
                     <a href="#" class="link-dark text-sm-center">SHIRT WITH TIE DETAIL</a>
@@ -105,6 +114,7 @@
                   </div>
                   <div class="card-body align-content-center text-center" id="middle">
                   <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-md text-uppercase text-light">BUY NOW</a>
                 </div>
               </div>
               </div>
@@ -113,7 +123,7 @@
   
             <div class="col-sm-3">
             <div class="card card-block" id="container">
-              <img class="card-img-top" alt="" src="/img/shirt52.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
+              <img class="card-img-top" alt="shirt52" src="img/shirt52.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
               <div class="card-block">
                 <div class="card-body text-sm-center">
                     <a href="#" class="link-dark text-sm-center">PRINTED SHIRT WITH TIE DETAIL</a>
@@ -121,6 +131,7 @@
                   </div>
                   <div class="card-body align-content-center text-center" id="middle">
                   <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-md text-uppercase text-light">BUY NOW</a>
                 </div>
               </div>
               </div>
@@ -128,7 +139,7 @@
               
               <div class="col-sm-3">
             <div class="card card-block" id="container">
-              <img class="card-img-top" alt="" src="/img/shirt53.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
+              <img class="card-img-top" alt="shirt53" src="img/shirt53.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
               <div class="card-block">
                 <div class="card-body text-sm-center">
                     <a href="#" class="link-dark text-sm-center">OVERSIZE DRAWSTRING SHIRT</a>
@@ -136,12 +147,312 @@
                   </div>
                   <div class="card-body align-content-center text-center" id="middle">
                   <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-md text-uppercase text-light">BUY NOW</a>
                 </div>
               </div>
               </div>
             </div>
          </div>
         </div>
+
+
+
+
+ <!------------------ Header 2 --------------------------->    
+
+        <div class="container-fluid">
+            <div class="card mx-auto p-lg-5" style="max-width: 100%;">
+                <div class="row g-0">
+                  <div class="col-xl-12">
+                    <img src="img/suit1.jpeg" class="img-fluid rounded-start" alt="suit1">
+                  </div>
+                  <div class="col">
+                    <div class="card-body text-sm-start">
+                      <!-- <a href="#" class="link-dark text-sm-start">OVERSIZE COAT</a>
+                      <h6 class="card-title text-sm-start fw-lighter">649.00 PLN</h6> -->
+                    </div>
+                  </div>
+                </div>
+         </div>
+      </div>
+    
+    
+         <div class="container-fluid">
+              <div class="card text-center">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-uppercase text-dark">SUITS FOR MEN</h5>
+                  <div class="m-auto p-xxl-5 flex-sm-row justify-content-center">
+                  <h6 class="text-sm-center text-opacity-50 fw-lighter fs-6 text-uppercase text-dark">FORMALITY FINDS ITS FUNCTION IN SOPHISTICATED DESIGN. SELECTED SILHOUETTES CONTRIBUTE TO THIS SUPREMELY TASTEFUL COLLECTION OF MEN’S SUITS, WHICH SERVES FORMAL AND CASUAL SITUATIONS. 
+                    FROM SLIM FITTING AND LIGHTWEIGHT SUMMER STYLES TO TUXEDO AND THREE-PIECE DESIGNS, DISCERNING.</h6>
+                </div>
+                  <a href="#" class="btn btn-dark btn-xl text-uppercase text-light">SEE MORE SUITS</a>
+                </div>
+              </div>
+            </div>
+            </div>
+         </div>
+    
+    
+
+    <!---------------- Row 2 -------------->
+      <div class="container-fluid m-5 p-0">
+        <div class="row">
+            <div class="col-xl-6">
+            <div class="card card-block d-flex">
+              <img class="card-img-top img-fluid" alt="suit2" src="img/suit2.jpeg"  style="height: 800px; width: 600px; display: block;">
+              <div class="card-block">
+                <div class="card-body">
+                    <a href="#" class="link-dark text-sm-start">100% WOOL SUIT BLAZER</a>
+                    <h6 class="card-title text-sm-start fw-lighter">499.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                  </div>
+                  <div class="card-body align-content-center text-left">
+                  <a href="#" class="btn btn-dark btn-lg  text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                </div>
+              </div>
+              </div>
+            </div>
+    
+    
+       <div class="col-xl-6">
+            <div class="card card-block">
+              <img class="card-img-top  img-fluid" alt="suit3" src="img/suit3.jpeg"  style="height: 800px; width: 600px; display: block;">
+              <div class="card-block">
+                <div class="card-body">
+                    <a href="#" class="link-dark text-sm-start"> 100% WOOL SUIT TROUSERS</a>
+                    <h6 class="card-title text-sm-start fw-lighter">169.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                  </div>
+                  <div class="card-body align-content-center text-left">
+                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">ADD TO CART</a>
+                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                  </div>
+              </div> 
+            </div>
+        </div>
+    </div>
+   </div>
+    
+
+    <!---------------- Row 3 -------------->
+    <div class="container-fluid m-5 p-0">
+      <div class="row">
+          <div class="col-xl-6">
+          <div class="card card-block d-flex">
+            <img class="card-img-top img-fluid" alt="suit4" src="img/suit4.jpeg"  style="height: 800px; width: 600px; display: block;">
+            <div class="card-block">
+              <div class="card-body">
+                  <a href="#" class="link-dark text-sm-start">SLIM FIT TAILORED TROUSERS</a>
+                  <h6 class="card-title text-sm-start fw-lighter">139.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                </div>
+                <div class="card-body align-content-center text-left">
+                <a href="#" class="btn btn-dark btn-lg  text-uppercase text-light">ADD TO CART</a>
+                <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+              </div>
+            </div>
+            </div>
+          </div>
+  
+  
+     <div class="col-xl-6">
+          <div class="card card-block">
+            <img class="card-img-top  img-fluid" alt="suit5" src="img/suit5.jpeg"  style="height: 800px; width: 600px; display: block;">
+            <div class="card-block">
+              <div class="card-body">
+                  <a href="#" class="link-dark text-sm-start">SLIM FIT SUIT BLAZER</a>
+                  <h6 class="card-title text-sm-start fw-lighter">349.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                </div>
+                <div class="card-body align-content-center text-left">
+                <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">ADD TO CART</a>
+                <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                </div>
+            </div> 
+          </div>
+      </div>
+  </div>
+ </div>
+
+
+     <!---------------- Row 4 -------------->
+                      <div class="container-fluid m-5 p-0">
+                        <div class="row">
+                            <div class="col-xl-6">
+                            <div class="card card-block d-flex">
+                              <img class="card-img-top img-fluid" alt="suit8" src="img/suit8.jpeg"  style="height: 800px; width: 600px; display: block;">
+                              <div class="card-block">
+                                <div class="card-body">
+                                    <a href="#" class="link-dark text-sm-start">SLIM FIT TAILORED TROUSERS</a>
+                                    <h6 class="card-title text-sm-start fw-lighter">139.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                                  </div>
+                                  <div class="card-body align-content-center text-left">
+                                  <a href="#" class="btn btn-dark btn-lg  text-uppercase text-light">ADD TO CART</a>
+                                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                    
+                    
+                      <div class="col-xl-6">
+                            <div class="card card-block">
+                              <img class="card-img-top  img-fluid" alt="suit9" src="img/suit9.jpeg"  style="height: 800px; width: 600px; display: block;">
+                              <div class="card-block">
+                                <div class="card-body">
+                                    <a href="#" class="link-dark text-sm-start">SLIM FIT SUIT BLAZER</a>
+                                    <h6 class="card-title text-sm-start fw-lighter">349.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                                  </div>
+                                  <div class="card-body align-content-center text-left">
+                                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">ADD TO CART</a>
+                                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                                  </div>
+                              </div> 
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    
+
+
+                      <!---------------- Row 5 -------------->
+                      <div class="container-fluid m-5 p-0">
+                        <div class="row">
+                            <div class="col-xl-6">
+                            <div class="card card-block d-flex">
+                              <img class="card-img-top img-fluid" alt="suit10" src="img/suit10.jpeg"  style="height: 800px; width: 600px; display: block;">
+                              <div class="card-block">
+                                <div class="card-body">
+                                    <a href="#" class="link-dark text-sm-start">SUIT BLAZER</a>
+                                    <h6 class="card-title text-sm-start fw-lighter">399.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                                  </div>
+                                  <div class="card-body align-content-center text-left">
+                                  <a href="#" class="btn btn-dark btn-lg  text-uppercase text-light">ADD TO CART</a>
+                                  <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                    
+                    
+                      <div class="col-xl-6">
+                            <div class="card card-block">
+                              <img class="card-img-top  img-fluid" alt="suit11" src="img/suit11.jpeg"  style="height: 800px; width: 600px; display: block;">
+                              <div class="card-block">
+                                <div class="card-body">
+                                    <a href="#" class="link-dark text-sm-start">SUIT TROUSERS</a>
+                                    <h6 class="card-title text-sm-start fw-lighter">199.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                                  </div>
+                                  <div class="card-body align-content-center text-center">
+                                    <a href="#" class="btn btn-dark btn-lg  text-uppercase text-light">ADD TO CART</a>
+                                    <a href="#" class="btn btn-dark btn-lg text-uppercase text-light">BUY NOW</a>
+                                  </div>
+                              </div> 
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  
+
+
+                  <!------------------ Header 3 --------------------------->    
+
+                            <div class="container-fluid">
+                              <div class="card mx-auto p-lg-5" style="max-width: 100%;">
+                                  <div class="row g-0">
+                                    <div class="col-xl-12">
+                                      <img src="img/suit12.jpeg" class="img-fluid rounded-start" alt="suit12">
+                                    </div>
+                                    <div class="col">
+                                      <div class="card-body text-sm-start">
+                                        <!-- <a href="#" class="link-dark text-sm-start">OVERSIZE COAT</a>
+                                        <h6 class="card-title text-sm-start fw-lighter">649.00 PLN</h6> -->
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                          </div>
+
+
+
+                  <!------------------ Row1 --------------------------->      
+                  <div class="container-fluid mx-4 px-0">
+                    <div class="row">
+                        <div class="col-sm-3">
+                        <div class="card card-block" id="container">
+                          <img class="card-img-top" alt="suit13" src="img/suit13.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
+                          <div class="card-block">
+                            <div class="card-body text-sm-center">
+                                <a href="#" class="link-dark text-sm-center">BIRD&#39;S-EYE SUIT BLAZER</a>
+                                <h6 class="card-title text-sm-center fw-lighter">199.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                              </div>
+                              <div class="card-body align-content-center text-center" id="middle">
+                              <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                              <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY NOW</a>
+                              </div>
+                          </div> 
+                        </div>
+                    </div>
+                        
+                        <div class="col-sm-3">
+                        <div class="card card-block" id="container">
+                          <img class="card-img-top" alt="suit14" src="img/suit14.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
+                          <div class="card-block">
+                            <div class="card-body text-sm-center">
+                                <a href="#" class="link-dark text-sm-center">BIRD&#39;S-EYE SUIT TROUSERS</a>
+                                <h6 class="card-title text-sm-center fw-lighter">399.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                              </div>
+                              <div class="card-body align-content-center text-center" id="middle">
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY NOW</a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                        
+
+                        <div class="col-sm-3">
+                        <div class="card card-block" id="container">
+                          <img class="card-img-top" alt="suit16" src="img/suit16.jpeg" style="height: 400px; width: 100%; display: block;" id="image">
+                          <div class="card-block">
+                            <div class="card-body text-sm-center">
+                                <a href="#" class="link-dark text-sm-center">BIRD&#39;S-EYE SUIT BLAZER</a>
+                                <h6 class="card-title text-sm-center fw-lighter">199.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                              </div>
+                              <div class="card-body align-content-center text-center" id="middle">
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY NOW</a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                          
+                          <div class="col-sm-3">
+                        <div class="card card-block" id="container">
+                          <img class="card-img-top" alt="suit17" src="img/suit17.jpeg"  style="height: 400px; width: 100%; display: block;" id="image">
+                          <div class="card-block">
+                            <div class="card-body text-sm-center">
+                                <a href="#" class="link-dark text-sm-center">BIRD&#39;S-EYE TROUSERS</a>
+                                <h6 class="card-title text-sm-center fw-lighter">399.00 PLN <i class="fa-regular fa-heart float-md-none"></i></h6>
+                              </div>
+                              <div class="card-body align-content-center text-center" id="middle">
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+                                <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY NOW</a>
+                            </div>
+                          </div>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+
+            
+
+
+ <!------------------ Fashion Video --------------------------->  
+
+          <video width="1500" height="1000" controls loop embed-responsive-item>
+            <source src="img/supreme2022collection.mp4" type="video/mp4">
+          </video>
+  
+
     
     
 <!--   
@@ -212,6 +523,56 @@
           </div>
   
    -->
+
+
+
+<!-----------------------Footer-------------------->
+<footer class="sticky-footer text-center text-lg-start text-bg-w my-0 footer-light bg-light">
+    <div class="container p-4 pb-0">
+        <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <p class="text-uppercase mb-4 font-weight-bold text-dark">
+            About
+            </p>
+            <p class="text-dark">
+
+                Supreme is one of the largest international fashion companies. It belongs to JJP Group of Companies, one of the world&#39;s largest distribution groups.
+
+            </p>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
+            <p><a class="text-dark" href="index.html">About Us</a></p>
+            <p><a class="text-dark" href="#">Contact Us</a></p>
+            <p><a class="text-dark" href="#">Privacy Policy</a></p>
+            <p><a class="text-dark" href="#">Contribute</a></p>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+        </div>
+    </section>
+    
+    <hr class="my-3 text-dark">
+
+        <section class="p-3 pt-0">
+            <div class="row d-flex align-items-center">
+            <div class="col-md-7 col-lg-8 text-md-start">
+                <div class="p-3">
+                <span class="text-dark">© 2022</span>
+                    <a class="text-dark" href="#">SupremeClothing.com</a>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+    </div>
+</footer>
+
+
   
 </body>
 </html>
