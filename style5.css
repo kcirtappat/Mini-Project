@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;600;700&display=swap');
-
+/* ========================= Body =========================  */
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-  }
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bolder;
+}
   /* HOMEPAGE CSS */
   .navbar {
     position: fixed;
@@ -76,15 +75,69 @@
   margin-bottom: 4rem;
   }
 
+.color{
+   
+    text-decoration: underline;
+}
+
+/* Dropdown */
+
+.dropdown-menu{
+    border:none;
+}
+
+.viewsort{
+    float:left;
+}
 
 
-/* SHOES PAGE CSS */
-.card-body{
-    text-align: center;
-  }
-#imgcard-1 .img-one:hover {
-    display: block;
-    border: 2px solid black;
+.categories{
+    margin:70px 0;
+
+}
+
+
+.small-container{
+
+margin:auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width:200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.col-4 img{
+    height: 250px;
+    width: 350px;
+}
+
+
+.title{
+        text-align:center;
+       
+        position: relative;
+        line-height: 60px;
+        
+    }
+.title::after{
+        content:'';
+        background: grey;
+        width: 80px;
+        height:5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom:0;
+        left: 50%;
+        transform:translateX(-50%)
+}
+
+.col-4:hover{
+    transform:translateY(-5px);
 }
 
 a {
@@ -114,70 +167,7 @@ a {
     transform: scaleX(1);
   }
 
-  /* Wrapper */
-
-.wrapper{
-    width: auto;
-    margin: 0 auto;
-}
-
-figure{
-    width: 32%;
-    float: left;
-    margin:0;
-}
-figcaption{
-    width: 250;
-    justify-content: center;
-
-}
-
-figcaption h2{
-    text-transform: uppercase;
-    margin: 15px;
-}
-figcaption p{
-    width: 90%;
-    margin: auto;
-    letter-spacing: 2px;
-}
-.hover-animation{
-    position:relative;
-    height: 350px;
-    width: 350px;
-    margin: 10% auto;
-color:#fff;
-box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-}
-
-.hover-animation img{
-    position: absolute;
-    height: 350px;
-    width: 350px;
-    left:0; 
-    -webkit-transition: opacity 1s ease-in-out time;
-    -moz-transition: opacity 1s ease-in-out time;
-    -o-transition: opacity 1s ease-in-out time;
-    transition: opacity 1s ease-in-out time;
-}
-
-.hover-animation img.img-front:hover{
-    opacity:0;
-    cursor:pointer;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  .btn:hover {
+    background-color: #C0B3A0;
+    color: rgb(248, 238, 238);
+  }

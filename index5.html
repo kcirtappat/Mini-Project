@@ -11,6 +11,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!----------------- Bootstrap ------------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!----------------- Fontsome ------------------------>
+    <script src="https://kit.fontawesome.com/3d3e281e2c.js" crossorigin="anonymous"></script>
+     <!-----------------Google Fonts------------------------>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100;1,300&display=swap" rel="stylesheet">
+ 
+     <!-----------------Favicon------------------------>
+     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 </head>
 <body>
 
@@ -24,13 +37,13 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav align-items-center mx-5 ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="index2.html">CLOTHING</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">ACCESORIES</a>
+              <a class="nav-link active" href="#">ACCESSORIES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="shoespage.html">SHOES</a>
@@ -93,374 +106,287 @@
     
 
 <section class="container py-5">
-    <div class="">
-        <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-          Color
-        </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-            <li><a class="dropdown-item" href="#">Null</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Red</a></li>
-            <li><a class="dropdown-item" href="#">Orange</a></li>
-            <li><a class="dropdown-item" href="#">Black</a></li>
-            </ul>
     
-            <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-            Price
+    
+
+<!--Dropdown-->
+<div class="container">
+    <h6 class="mt-2"> Home / <span class="color">Accessories</span></h6>
+    <div class="col col-md-4 mt-1">
+      <div class="btn-group">
+            <div class="">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Color
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-            <li><a class="dropdown-item" href="#">Null</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Null</a></li>
-            <li><a class="dropdown-item" href="#">Null</a></li>
-            <li><a class="dropdown-item" href="#">Null</a></li>
-             </ul>
-             <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-              Product Type
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                <li><a class="dropdown-item" href="#">Wallet</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Hats</a></li>
-                <li><a class="dropdown-item" href="#">Sunglasses</a></li>
-                <li><a class="dropdown-item" href="#">Bags & Backpacks</a></li>
-                </ul>
-    
-    
-                
-                  <div class="btn-group text-align:right ">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                     View
-                    </button>
-                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                    <li><a class="dropdown-item" href="#">See All</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">3</a></li>
-                    <li><a class="dropdown-item" href="#">2</a></li>
-                  
-                     </ul>
-            
-                     <button class="btn dropdown-toggle" type="button" id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-                    Sort By
-                      </button>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                      <li><a class="dropdown-item" href="#">All</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">3</a></li>
-                      <li><a class="dropdown-item" href="#">2</a></li>
-                    
-                      </ul>
-                  </div>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Black</a></li>
+              <li><a class="dropdown-item" href="#">Grey</a></li>
+              <li><a class="dropdown-item" href="#">White</a></li>
+              <li><a class="dropdown-item" href="#">Red</a></li>
+              <li><a class="dropdown-item" href="#">Yellow</a></li>
+            </ul>
+            </div>
+          <div>
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Brand
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ahead</a></li>
+              <li><a class="dropdown-item" href="#">Balenciaga</a></li>
+              <li><a class="dropdown-item" href="#">Calvin Klein</a></li>
+              <li><a class="dropdown-item" href="#">Dior</a></li>
+              <li><a class="dropdown-item" href="#">Foco</a></li>
+            </ul>
+          </div>
+          <div>
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Material
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">100% Cotton</a></li>
+              <li><a class="dropdown-item" href="#">100% Linen</a></li>
+              <li><a class="dropdown-item" href="#">Brass</a></li>
+              <li><a class="dropdown-item" href="#">Denim</a></li>
+              <li><a class="dropdown-item" href="#">Micro fiber</a></li>
+            </ul>
+          </div>
+          <div>
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Sale
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Regular</a></li>
+              <li><a class="dropdown-item" href="#">Sale</a></li>
+            </ul>
+          </div>
+          <div>
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Style
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Aviator</a></li>
+              <li><a class="dropdown-item" href="#">Band</a></li>
+              <li><a class="dropdown-item" href="#">Baseball Cap</a></li>
+              <li><a class="dropdown-item" href="#">Brow Bar</a></li>
+              <li><a class="dropdown-item" href="#">Charm</a></li>
+            </ul>
+          </div>
+      </div>
+      
       </div>
    
 
-    <!---Wallets-->
-    <div class="col">
-       
-        <div class="row">
-          <div class="col-12 col-md-4 p-3 mt-3 align-content-center">
-            
-            <div class="wrapper">
-              
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Wallets\AnimalPrintwallet1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Wallets\AnimalPrintWalelt.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Animal Printed Wallet</h6>
-                  <p>1,295.00 PHP</p>
-                  
-                  <a href="#" class="btn btn-dark btn-sm  text-uppercase text-light">ADD TO CART</a>
-                  
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Wallets\CardHolderW2.PNG" alt="" />
-                        <img class="img-front" src="imgacce\Wallets\CardHolderW1.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Card Holder Wallet</h6>
-                  <p>1,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                    <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY NOW</a>
-                  
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Wallets\EmbossedWallet1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Wallets\EmbossedWallet.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Embossed Wallet</h6>
-                  <p>1,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
+ 
+<div class="categories mt-4">
+  <div class="small-container">
+    <h2 class="title">Wallets</h2>
+    <div class="row">
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+            <img src="./imgacce/Wallets/AnimalPrintWalelt.PNG"alt="">
+          <h4>Animal Printed Wallet</h4>
+          <p>1,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
         </div>
-      </div>
-<!--Hats-->
-      <div class="col">
-        <div class="row">
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Hats\BasicSoftCap.PNG"  alt="" />
-                  <img class="img-front" src="imgacce\Hats\BasicSoftCap1.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Basic Soft Cap</h6>
-                  <p>1,145.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm  text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Hats\KnitBucketHat1.PNG" alt="" />
-                        <img class="img-front" src="imgacce\Hats\KnitBucketHat.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Knit Bucket Hat</h6>
-                  <p>1,495.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Hats\MenCap2.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Hats\MenCap1.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Men Cap</h6>
-                  <p>1,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
         </div>
-      </div>
-      <!--end-->
-      <!--Sunglasses-->
-      <div class="col">
-        <div class="row">
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Sunglasses\MFG3.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Sunglasses\MFG.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Metal Frame Glasses</h6>
-                  <p>1,145.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm  text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Sunglasses\MFSG3.PNG" alt="" />
-                      <img class="img-front" src="imgacce\Sunglasses\MFSG.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>Metal Frame Sun Glasses</h6>
-                  <p>1,495.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Sunglasses\MetalFrameSG3.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Sunglasses\MetalFrameSG.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>METAL FRAME GLASSES</h6>
-                  <p>1,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end-->
-       <!--Bag & Backpacks-->
-       <div class="col">
-        <div class="row">
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Bags\BackpackFlag1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Bags\BackpackFlag.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>BACKPACK WITH COMBINED FLAP</h6>
-                  <p>2,595.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm  text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Bags\MPFabricBP2.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Bags\MPFabricBP.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>MULTI-PURPOSE FABRIC BACKPACK</h6>
-                  <p>3,495.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col--4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Bags\VerticalMiniBag1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Bags\VerticalMiniBag.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>VERTICAL MINI CROSSBODY BAG</h6>
-                  <p>1,795.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end-->
-      <!--Belts-->
-      <div class="col">
-        <div class="row">
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Belts\Leather belt1.PNG" alt="" />
-                      <img class="img-front" src="imgacce\Belts\Leather belt.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>LEATHER BELT</h6>
-                  <p>2,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm  text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Belts\MLeatherBelt1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Belts\MLeatherBelt.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>LEATHER BELT</h6>
-                  <p>1,995.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-          <div class="col-12 col-md-4 col-4 p-3 mt-3">
-            <div class="wrapper">
-              <figure>
-                <div class="hover-animation">
-                  <img class="img-back" src="imgacce\Belts\ReversibleLbelt1.PNG" alt="" />
-                  <img class="img-front" src="imgacce\Belts\ReversibleLbelt.PNG" alt="" />
-                </div>
-                <figcaption>
-                  <h6>REVERSIBLE LEATHER BELT</h6>
-                  <p>2,295.00 PHP</p>
-                  <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!--end-->
-    
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Wallets/CardHolderW1.PNG" alt="">
 
+          <h4>Card Holder Wallet</h4>
+          <p>1,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+        </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Wallets/EmbossedWallet.PNG" alt="">
+          <h4>Embossed Wallet</h4>
+          <p>1,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Hats</h2>
+    <div class="row">
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Hats/BasicSoftCap.PNG"alt="">
+          <h4>Basic Soft Cap</h4>
+          <p>1,145.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Hats/KnitBucketHat.PNG" alt="">
+          <h4>Knit Bucket Hat</h4>
+          <p>1,495.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Hats/MenCap.PNG" alt="">
+          <h4>Men Cap</h4>
+          <p>1,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="title">Sunglasses</h2>
+    <div class="row">
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Sunglasses/MFSG.PNG"alt="">
+          <h4>Metal Frame Glasses</h4>
+          <p>1,145.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+
+          <img src="./imgacce/Sunglasses/MFG1.PNG" alt="">
+          <h4>Metal Frame Sun Glasses</h4>
+          <p>1,495.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Sunglasses/MetalFrameSG.PNG" alt="">
+          <h4>METAL FRAME GLASSES</h4>
+          <p>1,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Bag & Backpacks</h2>
+    <div class="row">
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+            <img src="./imgacce/Bags/BackpackFlag.PNG"alt="">
+          <h4>BACKPACK WITH COMBINED FLAP</h4>
+          <p>2,595.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+        </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+            <img src="./imgacce/Bags/MPFabricBP.PNG" alt="">
+          <h4>MULTI-PURPOSE FABRIC BACKPACK</h4>
+          <p>3,495.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+        </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Bags/VerticalMiniBag.PNG" alt="">
+          <h4>VERTICAL MINI CROSSBODY BAG</h4>
+          <p>1,795.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+    </div>
+    <h2 class="title">Belts</h2>
+    <div class="row">
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+            <img src="./imgacce/Belts/Leather belt.PNG"alt="">
+          <h4>LEATHER BELT</h4>
+          <p>2,295.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Belts/MLeatherBelt.PNG" alt="">
+          <h4>LEATHER BELT</h4>
+          <p>1,995.00 PHP</p>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+        <div class="col-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+          <div class="align-content-center text-center">
+          <img src="./imgacce/Belts/ReversibleLbelt.PNG" alt="">
+          <h4 class="fs-5">REVERSIBLE LEATHER BELT</h4>
+          <p>2,295.00 PHP</p>
+
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">ADD TO CART</a>
+          <a href="#" class="btn btn-dark btn-sm text-uppercase text-light">BUY</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ 
+ 
+<!--Accessories-->
+
+  
+  
+
+  
 </section>
-
 <!-- Footer -->
 <footer class="sticky-footer text-center text-lg-start text-white my-0 footer-light">
-    <div class="container p-4 pb-0">
-        <div class="row">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <p class="text-uppercase mb-4 font-weight-bold text-dark">
-              About
-            </p>
-            <p class="text-dark">
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit.</p>
-          </div>
-          <hr class="w-100 clearfix d-md-none">
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
-            <p><a class="text-dark" href="#">About Us</a></p>
-            <p><a class="text-dark" href="#">Contact Us</a></p>
-            <p><a class="text-dark" href="#">Privacy Policy</a></p>
-            <p><a class="text-dark" href="#">Contribute</a></p>
-          </div>
-          <hr class="w-100 clearfix d-md-none">
+  <div class="container p-4 pb-0">
+      <div class="row">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <p class="text-uppercase mb-4 font-weight-bold text-dark">
+            About
+          </p>
+          <p class="text-dark">
+            Here you can use rows and columns to organize your footer
+            content. Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit.</p>
         </div>
-    
-      <hr class="my-3 text-dark">
-        <section class="p-3 pt-0">
-            <div class="row d-flex align-items-center">
-            <div class="col-md-7 col-lg-8 text-md-start">
-                <div class="p-3">
-                <span class="text-dark">© 2022</span>
-                    <a class="text-dark" href="#">SupremeClothing.com</a>
-                </div>
-            </div>
-            <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">
-                <a class="text-dark" href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a class="text-dark" href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a class="text-dark" href="#"><i class="fa-brands fa-twitter"></i></a>
-            </div>
-        </section>
-    </div>
-</footer>
+        <hr class="w-100 clearfix d-md-none">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
+          <p><a class="text-dark" href="#">About Us</a></p>
+          <p><a class="text-dark" href="#">Contact Us</a></p>
+          <p><a class="text-dark" href="#">Privacy Policy</a></p>
+          <p><a class="text-dark" href="#">Contribute</a></p>
+        </div>
+        <hr class="w-100 clearfix d-md-none">
+      </div>
   
+    <hr class="my-3 text-dark">
+      <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+          <div class="col-md-7 col-lg-8 text-md-start">
+              <div class="p-3">
+              <span class="text-dark">© 2022</span>
+                  <a class="text-dark" href="#">SupremeClothing.com</a>
+              </div>
+          </div>
+          <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">
+              <a class="text-dark" href="#"><i class="fa-brands fa-facebook"></i></a>
+               <a class="text-dark" href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a class="text-dark" href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+      </section>
+  </div>
+</footer>
+
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
