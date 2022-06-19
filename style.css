@@ -2,7 +2,7 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
   /* HOMEPAGE CSS */
   a {
@@ -95,10 +95,7 @@
   }
 
 
-/* SHOES PAGE CSS */
-.card-body{
-    text-align: center;
-  }
+
 #imgcard-1 .img-one:hover {
     display: block;
     border: 2px solid black;

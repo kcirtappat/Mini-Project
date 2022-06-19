@@ -36,7 +36,16 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="shoespage.html">SHOES</a>
                 </li>
-                  <li class="nav-item"><a class="nav-link" href="#"><img class="ms-1 me-1" width="25" src="img/search.png" alt="searchicon"></a></li>
+                <li>
+                    <form action="">
+                        <div class="input-group rounded">
+                          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <span class="input-group-text border-0" id="search-addon">
+                              <button class="border-0"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                </li>
                   <li class="nav-item"><a class="nav-link" href="#"><img class="me-1" width="25" src="img/shopping-bag.png" alt="shoppingicon"></a></li>
                   <li class="nav-item"><a class="nav-link" href="login.html"><img class="mt-1 me-1" width="25" src="img/user.png" alt="shoppingicon"></a></li>
               </ul>
@@ -49,37 +58,34 @@
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="1000">
             <div class="overlay-image"
-            style="background-image:url(imgjocson/shoes-1slide.png);">
+            style="background-image:url(imgshoes/shoes-1slide.png);">
             </div>
             <div class="carousel-container">
-            <h1 class="">RUNNING MAN</h1>
+            <h1 class="">Never hold back</h1>
               <div class="col-6">
-                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
+                <p class="">The details make the shoe</p>
               </div>
             </div>
             </div>
           <div class="carousel-item" data-bs-interval="1000">
             <div class="overlay-image"
-            style="background-image:url(imgjocson/shoes-2slide.png);">
+            style="background-image:url(imgshoes/shoes-2slide.png);">
             </div>
             <div class="carousel-container">
                 <h1 class="">LIFESTYLE</h1>
                 <div class="col-6">
-                  <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="">Shop a pair of shoes and prepare to see a new world.</p>
                 </div>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="1000">
             <div class="overlay-image"
-            style="background-image:url(imgjocson/shoes-3slide.jpg);">
+            style="background-image:url(imgshoes/shoes-3slide.jpg);">
             </div>
             <div class="carousel-container">
-                <h1 class="">EVERY STEPS MATTERS</h1>
+                <h1 class="">EVERY STEP MATTERS</h1>
                 <div class="col-6">
-                  <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                      incididunt ut labore et dolore magna aliqua.</p>
+                  <p class="">Keep one step ahead in effortless style</p>
                 </div>
             </div>
           </div>
@@ -87,23 +93,30 @@
     </div>
 
     <!-- Shoes Cards Content -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-12">
-                <fieldset class="mt-5" disabled>
-                    <h1 class="h1 text-white"><label class="" for="shoebrand-select">Shoes Category</label></h1>
-                    <div class="select">
-                        <select id="shoebrand-select">
-                          <option value="" selected="selected">Brand Type</option>
-                          <option value="">Abibas</option>
-                          <option value="">Mike</option>
-                          <option value="">Converse</option>
-                          <option value="">iPhone Shoes</option>
-                          <option value="">New Arrival Shoes</option>
-                        </select>
-                        <span class="focus"></span>
-                      </div>
-                </fieldset>
+            <div class="col-lg-12 mt-5 mb-3 justify-content-center">
+                <h1 class="h1 text-dark"><label class="" for="shoebrand-select">Shoes Category</label></h1>
+                <button type="button text-dark" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Brand Type
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Black</a></li>
+                  <li><a class="dropdown-item" href="#">Grey</a></li>
+                  <li><a class="dropdown-item" href="#">White</a></li>
+                  <li><a class="dropdown-item" href="#">Red</a></li>
+                  <li><a class="dropdown-item" href="#">Yellow</a></li>
+                </ul>
+                <button type="button" class="btn btn-outline-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shoes Type
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Ahead</a></li>
+                    <li><a class="dropdown-item" href="#">Balenciaga</a></li>
+                    <li><a class="dropdown-item" href="#">Calvin Klein</a></li>
+                    <li><a class="dropdown-item" href="#">Dior</a></li>
+                    <li><a class="dropdown-item" href="#">Foco</a></li>
+                  </ul>
             </div>
         </div>
 
@@ -112,23 +125,23 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/sc-premiere1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/sc-premiere1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1" style="display:flexbox;">
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/sc-premiere1.jpg" width="90" alt="">
+                                <img src="imgshoes/sc-premiere1.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/sc-premiere2.jpg" width="90" alt="">
+                                <img src="imgshoes/sc-premiere2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/sc-premiere3.jpg" width="90" alt="">
+                                <img src="imgshoes/sc-premiere3.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -150,8 +163,8 @@
                     </fieldset>
                         <ul class="list-unstyled mt-1">
                         <li>
-                                <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                                <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                                <button class="btn btn-secondary btn-outline-dark text-white"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                                <button class="btn btn-dark btn-outline-success text-white" type="submit">BUY NOW</button>
                         </li>
                         </ul>
                         <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -162,23 +175,23 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/niteball-1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/niteball-1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/niteball-2.jpg" width="90" alt="">
+                                <img src="imgshoes/niteball-2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/niteball-3.jpg" width="90" alt="">
+                                <img src="imgshoes/niteball-3.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/niteball-4.jpg" width="90" alt="">
+                                <img src="imgshoes/niteball-4.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -212,23 +225,23 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/continental80-1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/continental80-1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/continental80-2.jpg" width="90" alt="">
+                                <img src="imgshoes/continental80-2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/continental80-3.jpg" width="90" alt="">
+                                <img src="imgshoes/continental80-3.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img src="imgjocson/continental80-4.jpg" width="90" alt="">
+                                <img src="imgshoes/continental80-4.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -262,23 +275,23 @@
         <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/marathon-t1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/marathon-t1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/marathon-t1.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/marathon-t1.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/marathon-t2.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/marathon-t2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/marathon-t3.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/marathon-t3.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -312,23 +325,23 @@
         <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/ozweego-m1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/ozweego-m1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/ozweego-m1.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/ozweego-m1.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/ozweego-m2.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/ozweego-m2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/ozweego-m3.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/ozweego-m3.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -362,23 +375,23 @@
         <div class="col-md-4 mt-4">
             <div class="card mb-4">
                 <div class="card-image">
-                    <img class="card-img img-fluid" src="imgjocson/sl80-1.jpg">
+                    <img class="card-img img-fluid" src="imgshoes/sl80-1.jpg">
                 </div>
                 <div class="card-body">
                     <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/sl80-2.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/sl80-2.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/sl80-3.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/sl80-3.jpg" width="90" alt="">
                             </div>
                         </div>
                         <div class="col">
                             <div class="img-one">
-                                <img class="img-fluid" src="imgjocson/sl80-4.jpg" width="90" alt="">
+                                <img class="img-fluid" src="imgshoes/sl80-4.jpg" width="90" alt="">
                             </div>
                         </div>
                     </div>
@@ -413,7 +426,7 @@
     </div>
 
 <!-- Footer -->
-<footer class="sticky-footer text-center text-lg-start text-white my-0 footer-light">
+<footer class="sticky-footer text-center text-lg-start text-white footer-light">
     <div class="container p-4 pb-0">
         <div class="row">
           <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
