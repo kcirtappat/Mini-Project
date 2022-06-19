@@ -7,7 +7,7 @@
     <link rel="browser tab icon" type="x-icon" href="favicon.png">
     <title>Shoes</title>
     <!-- CSS only -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shoes_page.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -128,7 +128,7 @@
                     <img class="card-img img-fluid" src="imgshoes/sc-premiere1.jpg">
                 </div>
                 <div class="card-body">
-                    <div class="row" id="imgcard-1" style="display:flexbox;">
+                    <div class="row" id="imgcard-1">
                         <div class="col">
                             <div class="img-one">
                                 <img src="imgshoes/sc-premiere1.jpg" width="90" alt="">
@@ -145,29 +145,29 @@
                             </div>
                         </div>
                     </div>
-                    <h4 class="h4 mt-2">SC PREMIERE MENS</h4>
-                    <fieldset>
-                        <label for="standard-select">Size: EU</label>
-                        <div class="select">
-                            <select id="shoe-sizes">
-                                <option value="40" selected="selected">40</option>
-                                <option value="">41</option>
-                                <option value="">42</option>
-                                <option value="">43</option>
-                                <option value="">44</option>
-                                <option value="">45</option>
-                                <option value="">46</option>
-                            </select>
-                            <span class="focus"></span>
-                        </div>
-                    </fieldset>
-                        <ul class="list-unstyled mt-1">
-                        <li>
-                                <button class="btn btn-secondary btn-outline-dark text-white"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                                <button class="btn btn-dark btn-outline-success text-white" type="submit">BUY NOW</button>
-                        </li>
-                        </ul>
-                        <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
+                        <h4 class="h4">SC PREMIERE MENS</h4>
+                        <fieldset>
+                            <label for="standard-select">Size: EU</label>
+                            <div class="select">
+                                <select id="shoe-sizes">
+                                    <option value="40" selected="selected">40</option>
+                                    <option value="">41</option>
+                                    <option value="">42</option>
+                                    <option value="">43</option>
+                                    <option value="">44</option>
+                                    <option value="">45</option>
+                                    <option value="">46</option>
+                                </select>
+                                <span class="focus"></span>
+                            </div>
+                        </fieldset>
+                            <ul class="list-unstyled mt-1">
+                            <li>
+                                <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
+                            </li>
+                            </ul>
+                                <p class="mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
                 </div>
             </div>
         </div>
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                        <h4 class="h4 mt-2">NITEBALL MENS</h4>
+                        <h4 class="h4">NITEBALL MENS</h4>
                         <fieldset>
                             <label for="standard-select">Size: EU</label>
                             <div class="select">
@@ -211,10 +211,10 @@
                                 <span class="focus"></span>
                               </div>
                         </fieldset>
-                            <ul class="list-unstyled mt-2">
+                            <ul class="list-unstyled mt-1">
                             <li>
-                                <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                                <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                                <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                                <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
                             </li>
                             </ul>
                             <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -261,10 +261,10 @@
                             <span class="focus"></span>
                           </div>
                     </fieldset>
-                        <ul class="list-unstyled mt-2">
+                        <ul class="list-unstyled mt-1">
                         <li>
-                            <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                            <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                            <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
                         </li>
                         </ul>
                     <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -311,10 +311,10 @@
                             <span class="focus"></span>
                           </div>
                     </fieldset>
-                        <ul class="list-unstyled mt-2">
+                        <ul class="list-unstyled mt-1">
                         <li>
-                            <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                            <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                            <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
                         </li>
                         </ul>
                     <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -361,10 +361,10 @@
                             <span class="focus"></span>
                           </div>
                     </fieldset>
-                        <ul class="list-unstyled mt-2">
+                        <ul class="list-unstyled mt-1">
                         <li>
-                            <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                            <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                            <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
                         </li>
                         </ul>
                     <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -411,10 +411,10 @@
                             <span class="focus"></span>
                           </div>
                     </fieldset>
-                        <ul class="list-unstyled mt-2">
+                        <ul class="list-unstyled mt-1">
                         <li>
-                            <button class="btn btn-outline-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
-                            <button class="btn btn-outline-success" type="submit">BUY NOW</button>
+                            <button class="btn btn-dark"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+                            <button class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal" type="submit">BUY NOW</button>
                         </li>
                         </ul>
                     <p class="text-center mb-0"><i class="fa-solid fa-peso-sign"></i>999.00</p>
@@ -423,6 +423,182 @@
         </div>
 
     </div>
+    </div>
+
+    <!-- Modal Payment Form -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">PAYMENT PAGE</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
+              </div>
+              <div class="modal-body">
+                <form class="form-floating">
+<div class="container">
+    <div class="py-5 text-center">
+        <img class="mb-4 d-block mx-auto" src="imgacce\logo.png" width="72" height="72" alt="">
+    </div>
+</div>
+
+<div class="container border p-5">
+    <div class="col-12">
+
+        <div class="col-sm-6">
+            <label for="FullName" class="form-label">FULL NAME:</label>
+            <input id="FullName" type="text" class="form-control" placeholder="">
+
+        </div>
+        <div class="col-sm-6">
+            <label for="Address" class="form-label">ADDRESS:</label>
+            <input id="Address" type="text" class="form-control" placeholder="">
+
+        </div>
+        <div class="col-sm-6">
+            <label for="Country" class="form-label">Country:</label>
+            <select class="form-select" id="country">
+                <option value="" selected="" disabled="">Select your country</option>
+                <option value="">Philippines</option>
+                <option value="">Singapore</option>
+                <option value="">Japan</option>
+              </select>
+
+        </div>
+        <div class="col-sm-6">
+            <label for="Contact" class="form-label">CONTACT #:</label>
+            <input id="Address" type="text" class="form-control" placeholder="">
+        </div>
+
+        <div class="my-3">
+            <label for="PayMethod" class="form-label">PAYMENT METHOD</label>
+            <div class="form-check">
+              <input
+                id="visa"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input bg-dark"
+                checked
+                required
+              />
+              <label class="form-check-label" for="credit"
+                >VISA</label
+              >
+            </div>
+            <div class="form-check">
+              <input
+                id="COD"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input bg-dark"
+                required
+              />
+              <label class="form-check-label" for="cod">CASH ON DELIVERY</label>
+            </div>
+            <div class="form-check">
+              <input
+                id="paypal"
+                name="paymentMethod"
+                type="radio"
+                class="form-check-input bg-dark"
+                required
+              />
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+            <div class="form-check">
+                <input
+                  id="MasterCard"
+                  name="paymentMethod"
+                  type="radio"
+                  class="form-check-input bg-dark"
+                  required
+                />
+                <label class="form-check-label" for="MasterCard">MASTER CARD</label>
+              </div>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="NameCard" class="form-label">Name on card</label>
+            <input id="NameCard" type="text" class="form-control" placeholder="">
+
+        </div>
+
+        <div class="col-sm-6">
+            <label for="CreditCard" class="form-label">Credit Card Number</label>
+            <input id="CreditCard" type="text" class="form-control" placeholder="">
+
+        </div>
+        <div class="col-sm-2">
+          <label for="CVV" class="form-label">CVV</label>
+          <input id="CVV" type="text" class="form-control" placeholder="">
+
+      </div>
+          <div class="col-sm-12 mt-2 mb-2 align-content-center text-center ">
+
+         
+          <button class="btn btn-dark btn-outline-primary text-white btn-md" type="submit">
+            Submit
+          </button>
+          <button class="btn btn-light btn-outline-dark btn-md" type="submit">
+            Cancel
+          </button>
+        </div>
+
+    </div>
+</div>
+</form>
+     <!--
+            <div class="modal-footer">
+                <footer class="sticky-footer text-center text-lg-start text-white my-0 footer-light">
+                    <div class="container p-4 pb-0">
+                        <div class="row">
+                          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <p class="text-uppercase mb-4 font-weight-bold text-dark">
+                              About
+                            </p>
+                            <p class="text-dark">
+                              Here you can use rows and columns to organize your footer
+                              content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                              elit.</p>
+                          </div>
+                          <hr class="w-100 clearfix d-md-none">
+                          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
+                            <p><a class="text-dark" href="#">About Us</a></p>
+                            <p><a class="text-dark" href="#">Contact Us</a></p>
+                            <p><a class="text-dark" href="#">Privacy Policy</a></p>
+                            <p><a class="text-dark" href="#">Contribute</a></p>
+                          </div>
+                          <hr class="w-100 clearfix d-md-none">
+                        </div>
+                    
+                      <hr class="my-3 text-dark">
+                        <section class="p-3 pt-0">
+                            <div class="row d-flex align-items-center">
+                            <div class="col-md-7 col-lg-8 text-md-start">
+                                <div class="p-3">
+                                <span class="text-dark">© 2022</span>
+                                    <a class="text-dark" href="#">SupremeClothing.com</a>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">
+                                <a class="text-dark" href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a class="text-dark" href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="text-dark" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </section>
+                    </div>
+                  </footer>
+              </div>
+            </div>
+          -->
+
+          </div>
+        </div>
+      </div>
     </div>
 
 <!-- Footer -->
