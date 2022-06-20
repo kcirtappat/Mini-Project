@@ -422,181 +422,198 @@
     </div>
     </div>
 
-    <!-- Modal Payment Form -->
+<!---Copy Me and modal.css--->
+<div class="container mt-5">
+
     <div class="modal" id="myModal">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title">PAYMENT PAGE</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-              ></button>
-              </div>
-              <div class="modal-body">
-                <form class="form-floating">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">PAYMENT PAGE</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+            </div>
+<div class="modal-body">
+  <form class="form-floating">
 <div class="container">
-    <div class="py-5 text-center">
-        <img class="mb-4 d-block mx-auto" src="imgacce\logo.png" width="72" height="72" alt="">
-    </div>
+  <div class="py-4 text-center">
+      <img class="d-block mx-auto" src="imgacce\logo.png" width="72" height="72" alt="">
+  </div>
 </div>
 
-<div class="container border p-5">
-    <div class="col-12">
 
-        <div class="col-sm-6">
-            <label for="FullName" class="form-label">FULL NAME:</label>
-            <input id="FullName" type="text" class="form-control" placeholder="">
+<form action="" method="post">
+  <!--Account Information Start-->
+  <div class="input_group">
+    <div class="input_box">
+      <input type="text" placeholder="Full Name" class="name" />
+      <i class="fa fa-user icon"></i>
+    </div>
+    <div class="input_box">
+      <input
+        type="text"
+        placeholder="Name on Card"
+        class="name"
+      />
+      <i class="fa fa-user icon"></i>
+    </div>
+  </div>
+  <div class="input_group">
+    <div class="input_box">
+      <input
+        type="email"
+        placeholder="Email Address"
+        class="name"
+      />
+      <i class="fa fa-envelope icon"></i>
+    </div>
+  </div>
+  <div class="input_group">
+    <div class="input_box">
+      <input type="text" placeholder="Address" class="name" />
+      <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+    </div>
+  </div>
+  <div class="input_group">
+    <div class="input_box">
+      <input type="text" placeholder="City" class="name" />
+      <i class="fa fa-institution icon"></i>
+    </div>
+  </div>
+  <!--Account Information End-->
 
-        </div>
-        <div class="col-sm-6">
-            <label for="Address" class="form-label">ADDRESS:</label>
-            <input id="Address" type="text" class="form-control" placeholder="">
+  <!--DOB & Gender Start-->
+  <div class="input_group">
+    <div class="input_box">
+      <h4>Date Of Birth</h4>
+      <input type="text" placeholder="DD" class="dob" />
+      <input type="text" placeholder="MM" class="dob" />
+      <input type="text" placeholder="YYYY" class="dob" />
+    </div>
+    <div class="input_box">
+      <h4>Gender</h4>
+      
+      <input type="radio" name="gender" class="radio" id="b1" checked />
+      <label for="b1">Male</label>
+      <input type="radio" name="gender" class="radio" id="b2" />
+      <label for="b2">Female</label>
+    </div>
+  </div>
+  <!--DOB & Gender End-->
 
-        </div>
-        <div class="col-sm-6">
-            <label for="Country" class="form-label">Country:</label>
-            <select class="form-select" id="country">
-                <option value="" selected="" disabled="">Select your country</option>
-                <option value="">Philippines</option>
-                <option value="">Singapore</option>
-                <option value="">Japan</option>
-              </select>
-
-        </div>
-        <div class="col-sm-6">
-            <label for="Contact" class="form-label">CONTACT #:</label>
-            <input id="Address" type="text" class="form-control" placeholder="">
-        </div>
-
-        <div class="my-3">
-            <label for="PayMethod" class="form-label">PAYMENT METHOD</label>
-            <div class="form-check">
-              <input
-                id="visa"
-                name="paymentMethod"
-                type="radio"
-                class="form-check-input bg-dark"
-                checked
-                required
-              />
-              <label class="form-check-label" for="credit"
-                >VISA</label
-              >
-            </div>
-            <div class="form-check">
-              <input
-                id="COD"
-                name="paymentMethod"
-                type="radio"
-                class="form-check-input bg-dark"
-                required
-              />
-              <label class="form-check-label" for="cod">CASH ON DELIVERY</label>
-            </div>
-            <div class="form-check">
-              <input
-                id="paypal"
-                name="paymentMethod"
-                type="radio"
-                class="form-check-input bg-dark"
-                required
-              />
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-            <div class="form-check">
-                <input
-                  id="MasterCard"
-                  name="paymentMethod"
-                  type="radio"
-                  class="form-check-input bg-dark"
-                  required
-                />
-                <label class="form-check-label" for="MasterCard">MASTER CARD</label>
-              </div>
+  <!--Payment Details Start-->
+  <div class="input_group">
+    <div class="input_box">
+    <h4>Payment Details</h4>
+    
+    <label for="PayMethod" class="form-label">PAYMENT METHOD</label>
+          <div class="form-check">
+            <input
+              id="visa"
+              name="paymentMethod"
+              type="radio"
+              class=""
+              checked
+              required
+            />
+            <label class="form-check-label" for="credit"
+              >VISA</label
+            >
           </div>
-
-          <div class="col-sm-6">
-            <label for="NameCard" class="form-label">Name on card</label>
-            <input id="NameCard" type="text" class="form-control" placeholder="">
-
+          <div class="form-check">
+            <input
+              id="COD"
+              name="paymentMethod"
+              type="radio"
+              class=""
+              required
+            />
+            <label class="form-check-label" for="cod">CASH ON DELIVERY</label>
+          </div>
+          <div class="form-check">
+            <input
+              id="paypal"
+              name="paymentMethod"
+              type="radio"
+              class=""
+              required
+            />
+            <label class="form-check-label" for="paypal">PayPal</label>
+          </div>
+          <div class="form-check">
+              <input
+                id="MasterCard"
+                name="paymentMethod"
+                type="radio"
+                class=""
+                required
+              />
+              <label class="form-check-label" for="MasterCard">MASTER CARD</label>
+            </div>
         </div>
-
-        <div class="col-sm-6">
-            <label for="CreditCard" class="form-label">Credit Card Number</label>
-            <input id="CreditCard" type="text" class="form-control" placeholder="">
-
-        </div>
-        <div class="col-sm-2">
-          <label for="CVV" class="form-label">CVV</label>
-          <input id="CVV" type="text" class="form-control" placeholder="">
-
-      </div>
-          <div class="col-sm-12 mt-2 mb-2 align-content-center text-center ">
-
-         
-          <button class="btn btn-dark btn-outline-primary text-white btn-md" type="submit">
-            Submit
-          </button>
-          <button class="btn btn-light btn-outline-dark btn-md" type="submit">
-            Cancel
-          </button>
-        </div>
-
+    
+    
     </div>
-</div>
+  <div class="input_group">
+    <div class="input_box">
+      <input
+        type="tel"
+        name=""
+        class="name"
+        placeholder="Card Number 1111-1111-1111-1111"
+      />
+      <i class="fa fa-credit-card icon"></i>
+    </div>
+  </div>
+  <div class="input_group">
+    <div class="input_box">
+      <input
+        type="tel"
+        name=""
+        class="name"
+        placeholder="CVC 111"
+      />
+      <i class="fa fa-user icon"></i>
+    </div>
+  </div>
+  <div class="input_group">
+    <div class="input_box">
+      <div class="input_box">
+        <input
+          type="number"
+          placeholder="Exp Month"
+          class="name"
+        />
+        <i class="fa fa-calendar icon" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="input_box">
+      <input type="number" placeholder="Exp Year" class="name" />
+      <i class="fa fa-calendar-o icon" aria-hidden="true"></i>
+    </div>
+  </div>
+  <!--Payment Details End-->
+
+  <div class="col-sm-12 mt-2 mb-2 align-content-center text-center ">
+
+       
+    <button class="btn btn-dark btn-outline-primary text-white btn-md" type="submit">
+      Submit
+    </button>
+    <button class="btn btn-light btn-outline-dark btn-md" type="submit">
+      Cancel
+    </button>
+  </div>
+
 </form>
-     <!--
-            <div class="modal-footer">
-                <footer class="sticky-footer text-center text-lg-start text-white my-0 footer-light">
-                    <div class="container p-4 pb-0">
-                        <div class="row">
-                          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                            <p class="text-uppercase mb-4 font-weight-bold text-dark">
-                              About
-                            </p>
-                            <p class="text-dark">
-                              Here you can use rows and columns to organize your footer
-                              content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                              elit.</p>
-                          </div>
-                          <hr class="w-100 clearfix d-md-none">
-                          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                            <p class="text-uppercase mb-4 font-weight-bold text-dark">QUICK LINKS</p>
-                            <p><a class="text-dark" href="#">About Us</a></p>
-                            <p><a class="text-dark" href="#">Contact Us</a></p>
-                            <p><a class="text-dark" href="#">Privacy Policy</a></p>
-                            <p><a class="text-dark" href="#">Contribute</a></p>
-                          </div>
-                          <hr class="w-100 clearfix d-md-none">
-                        </div>
-                    
-                      <hr class="my-3 text-dark">
-                        <section class="p-3 pt-0">
-                            <div class="row d-flex align-items-center">
-                            <div class="col-md-7 col-lg-8 text-md-start">
-                                <div class="p-3">
-                                <span class="text-dark">© 2022</span>
-                                    <a class="text-dark" href="#">SupremeClothing.com</a>
-                                </div>
-                            </div>
-                            <div class="col-md-5 col-lg-4 ml-lg-0 text-md-start">
-                                <a class="text-dark" href="#"><i class="fa-brands fa-facebook"></i></a>
-                                <a class="text-dark" href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a class="text-dark" href="#"><i class="fa-brands fa-twitter"></i></a>
-                            </div>
-                        </section>
-                    </div>
-                  </footer>
-              </div>
-            </div>
-          -->
-
-          </div>
-        </div>
-      </div>
-    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <!-- Footer -->
 <footer class="sticky-footer text-center text-lg-start text-white footer-light">
